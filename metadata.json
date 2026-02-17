@@ -1,0 +1,16 @@
+{
+    "title": "Sample Solution: List Operations",
+    "slug": "sample-solution-python-list-operations",
+    "description": "Sample solution showing list creation, append, insert, concatenation operations, and demonstration of index error behavior.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "python"
+    ],
+    "duration": 4,
+    "prerequisites": [
+        "exercise-python-list-operations"
+    ],
+    "related": []
+}

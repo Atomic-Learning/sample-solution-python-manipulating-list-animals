@@ -1,0 +1,36 @@
+<p>Let's create a list of animals and see how we can modify it.</p>
+<py-cell>
+animals = ["rabbit", "hamster"]
+print(animals)
+</py-cell>
+
+<p>We can add a new animal to the end of the list using <code>append()</code>.</p>
+<py-cell>
+animals.append("rat")
+print(animals)
+</py-cell>
+
+<p>To add an animal at the beginning, use <code>insert()</code> with index 0.</p>
+<py-cell>
+animals.insert(0, "chinchilla")
+print(animals)
+</py-cell>
+
+<p>We can combine two lists using the <code>+</code> operator. This creates a new list and leaves the originals unchanged.</p>
+<py-cell>
+shopping_list = ["apples", "bananas", "bread"]
+combined = animals + shopping_list
+print(combined)
+print(animals)  # Original list unchanged
+print(shopping_list)   # Original list unchanged
+</py-cell>
+
+<p>Trying to access an index that doesn't exist will raise an <code>IndexError</code>.</p>
+<py-cell>
+print(animals[99])
+</py-cell>
+
+<p>Trying to assign a value to an index that doesn't exist will also raise an <code>IndexError</code>.</p>
+<py-cell>
+animals[99] = "alligator"
+</py-cell>
