@@ -5,21 +5,21 @@ animals = ["rabbit", "hamster"]
 print(animals)
 ```
 
-We can add a new animal to the end of the list using `append()`.
+We can add a new animal to the end of the list using `append()`{.python}.
 
 ```py-cell
 animals.append("rat")
 print(animals)
 ```
 
-To add an animal at the beginning, use `insert()` with index 0.
+To add an animal at the beginning, use `insert()`{.python} with index 0.
 
 ```py-cell
 animals.insert(0, "chinchilla")
 print(animals)
 ```
 
-We can combine two lists using the `+` operator. This creates a new list and leaves the originals unchanged.
+We can combine two lists using the `+`{.python} operator. This creates a new list and leaves the originals unchanged.
 
 ```py-cell
 shopping_list = ["apples", "bananas", "bread"]
@@ -29,13 +29,13 @@ print(animals)  # Original list unchanged
 print(shopping_list)   # Original list unchanged
 ```
 
-Trying to access an index that doesn't exist will raise an `IndexError`.
+Trying to access an index that doesn't exist will raise an `IndexError`{.python}.
 
 ```py-cell
 print(animals[99])
 ```
 
-Trying to assign a value to an index that doesn't exist will also raise an `IndexError`.
+Trying to assign a value to an index that doesn't exist will also raise an `IndexError`{.python}.
 
 ```py-cell
 animals[99] = "alligator"
